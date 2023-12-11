@@ -1,7 +1,7 @@
 #include <display.h>
 
  /*     
- *  Common cathode
+ *  Общий катод
  * 
  *      a
  *     +++
@@ -15,7 +15,7 @@
  *     +++
  */   
 void writeLED(uint8_t val, uint8_t digit){
-    switch (val)
+    switch (val)  // выбор зажигания числа от 0-9 на разряде
     {
         case 0:
             PORTC &= ~(1 << G);
@@ -77,7 +77,7 @@ void writeLED(uint8_t val, uint8_t digit){
             PORTC |= (1 << A) | (1 << B) | (1 << C) | (1 << D) | (1 << F) | (1 << G);
             break;
     }
-    switch (digit)
+    switch (digit)  // выбор разряда на индикаторе
     {
         case 0:
             PORTD &= ~(1 << ENA_1); 

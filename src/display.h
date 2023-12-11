@@ -5,12 +5,10 @@
 #include <pinConfig.h>
 
 /**
- * Write a value to a specific digit.
- *
- * @param val The value to write 0-9.
- * @param digit The digit to write the value to 0-4.
- *
- * @throws None.
+ * Зажечь определенное число на выбранном разряде индикатора
+ * @param val число записи 0-9.
+ * @param digit разряд 0-4.
+ * @return void
  */
 void writeLED(uint8_t val, uint8_t digit);
 
