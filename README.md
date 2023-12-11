@@ -15,4 +15,4 @@
 [Э3.1.pdf](https://github.com/Emile1154/freqCounter/files/13638932/3.1.pdf)
 
 * component list:
-[component_list.pdf](https://github.com/Emile1154/freqCounter/files/13638937/component_list.pdf)
+[component_list.pdf](https://github.com/Emile1154/freqCounter/files/13639006/component_list.pdf)
