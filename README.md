@@ -2,6 +2,7 @@
 ## Electronic measuring device on ATtiny48
 
 * fuse:
+
 ![image](https://github.com/Emile1154/freqCounter/assets/42141666/39a016b0-5fb5-42ce-84bd-2bc27e912266)
 
 * proteus model:
